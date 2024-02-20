@@ -1,0 +1,20 @@
+.nav-link{
+    color: gray !important;
+}
+
+.main-img-container {
+    height: 80vh;
+    position: relative;
+}
+
+.main-img-container img{
+    height: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.main-text-container {
+    position:absolute;
+    color: black;
+}
