@@ -17,60 +17,54 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css"/>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid bg-dark">
-        <a class="navbar-brand text-white" href="#">Harvey Tech</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#"
-                >Services</a
-              >
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-lg fixed-top">
+  <div class="container ">
+    <a class="navbar-brand fs-3" href="#">Fatih Tech</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+              <a class="nav-link fs-5" href="#services">Services</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Portfolio</a>
+            <li class="nav-item fs-5">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About us</a>
+            <li class="nav-item fs-5">
+              <a class="nav-link" href="#aboutus">About us</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Staff</a>
+            <li class="nav-item fs-5">
+              <a class="nav-link" href="#staff">Staff</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact us</a>
+            <li class="nav-item fs-5">
+              <a class="nav-link" href="#contact">Contact Us</a>
             </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+      </ul>
+      
+    </div>
+  </div>
+</nav>
+
     <!-- main -->
-    <div
-      class="main-img-container container-fluid d-flex flex-column justify-content-center align-items-center"
-    >
-      <img src="./images/banner.jpeg" alt="" />
-      <div class="main-text-container justify-content-center text text-center">
-        <p>The I Career of Your Dreams Starts Here!</p>
-        <h1>Harvey Tech</h1>
-        <button type="button" class="btn btn-danger">Our Services</button>
+    <div class="container-fluid banner">
+      <div class="container text-center">
+        <h3 class="fs-3 py-3">Dreams of IT Career Start Here!!</h3>
+        <h1 class="fs-1 pb-3">Fatih Tech</h1>
+        <a href="#services">
+          <button type="button" class="btn btn-warning btn-lg ">
+            Our Services
+          </button>
+        </a>
       </div>
     </div>
     <!-- service -->
-    <section id="section" class="text-center">
-      <h3>Services</h3>
+    <section id="section" class="text-center d-flex flex-column justify-content-center align-items-center py-4">
+      <h1 class="display-3 fw-normal">Services</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate,
         doloribus.
@@ -100,7 +94,7 @@
       </div>
     </section>
     <!-- portfolio -->
-    <section class="" id="portfolio">
+    <!-- <section class="" id="portfolio">
       <div class="portfolio-header text-center">
         <h1>Portfolio</h1>
         <p>
@@ -184,9 +178,9 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- about us -->
-    <section id="about" class="">
+    <!-- <section id="about" class="">
         <div class="about-header-contaier text-center">
             <h1 class="mt-3">About Us</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, laboriosam!</p>
@@ -203,9 +197,9 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- our team -->
-    <section>
+    <!-- <section>
         <div class="team-text-container text-center">
             <h1>Our Team</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, nisi. Voluptatibus delectus quod quaerat autem dolorum ea inventore et? Corporis?</p>
@@ -242,10 +236,10 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- companies -->
-    <section>
-        <div class="row row-cols-5 ">
+    <!-- <section> -->
+        <!-- <div class="row row-cols-5 ">
             <div class="col">
                 <a href="#">
                     <img class="w-100" src="./images/img8 copy.png" alt="">
@@ -271,17 +265,22 @@
                     <img class="w-100" src="./images/img12 copy.png" alt="">
                 </a>
             </div>
-        </div>
-    </section>
+        </div> -->
+    <!-- </section> -->
     <!-- contact -->
-    <section>
+    <!-- <section class="">
         <h1>Contact Us</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, nihil.</p>
-        <div class="row">
-
+        <div class="row d-flex justify-content-center">
+            <div class="col ">
+                <input type="text" class="form-control w-50"  placeholder="name">
+                 <input type="text" class="form-control w-50"  placeholder="email">
+                <input type="text" class="form-control w-50"  placeholder="phone number">
+                <textarea class="form-control w-50"></textarea>
+            </div>
         </div>
         <button class="bg-warning">Send Message</button>
-    </section>
+    </section> -->
 
 
     <script

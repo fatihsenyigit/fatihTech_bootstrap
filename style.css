@@ -1,24 +1,20 @@
-.nav-link{
-    color: gray !important;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.main-img-container {
-    height: 80vh;
-    position: relative;
+/* navbar */
+
+
+
+/* main */
+
+.banner {
+  background: url(./images/banner.jpeg) no-repeat center center;
+  background-size: cover;
+  padding-top: 20%;
+  padding-bottom: 20%;
 }
 
-.main-img-container img{
-    height: 100%;
-    object-fit: cover;
-    background-repeat: no-repeat;
-    overflow: hidden;
-}
-
-.main-text-container {
-    position:absolute;
-    color: black;
-}
-
-.rounded-circle {
-    border: 5px solid #cccccc;
-}
